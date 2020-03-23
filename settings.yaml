@@ -1,0 +1,10 @@
+client_config_backend: settings
+client_config:
+  client_id: # Insert your Google Drive API Client ID here 
+  client_secret: # Insert your Google Drive API Client Secret here
+
+
+get_refresh_token: True
+
+oauth_scope:
+  - https://www.googleapis.com/auth/drive
